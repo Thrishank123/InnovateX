@@ -1,0 +1,86 @@
+body {
+    background-image: url("background2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    font-family: Grown;
+  }
+  .DEPARTMENTS {
+    padding-top: 30px;
+  }
+  
+  .card {
+    background-color: transparent; 
+    border: none;
+    color: beige; 
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .card-text {
+    font-family: 'Vietnam', sans-serif;
+    font-size: 1.1rem;
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  .footer {
+    background-color: #343a40; 
+    color: white; 
+}
+
+.footer a {
+    color: white; 
+}
+
+.footer a:hover {
+    color: #adb5bd; 
+}

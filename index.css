@@ -1,0 +1,98 @@
+body {
+  background-image: url("Background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  height: 90px;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid black;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: white;
+  font-family: Grown;
+}
+
+.navbar-nav:last-child {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navbar-nav:nth-child(2) {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.btn-tablet {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.button {
+  margin-top: auto; 
+  margin-bottom: 170px;
+}
+
+.button button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  background-color: transparent; 
+  color: white;
+  border: 2px solid white; 
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.footer {
+  height: 80px;
+  background-color: #343a40; 
+  color: white; 
+  padding: 10px 20px; /* Adjusted padding */
+  border-top: 2px solid black; 
+  text-align: center; /* Center-align text */
+}
+
+.footer a {
+  color: white; 
+}
+
+.footer a:hover {
+  color: #adb5bd; 
+}
+
+

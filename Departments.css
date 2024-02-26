@@ -1,0 +1,49 @@
+body {
+    background-image: url("background2.jpg");
+}
+h1{
+    color: white;
+    font-family: Grown;
+}
+.card {
+    height: 100%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:black;
+}
+
+.card-text {
+    font-family: 'Vietnam', sans-serif;
+    font-size: 1rem;
+    color: #666;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    border-top: 2px solid black;
+}
+
+.footer a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #adb5bd;
+}

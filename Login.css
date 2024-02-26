@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.body {
+    background-image: url("pexels-luis-quintero-2257474\ \(1\).jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    color: #3498db;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 520px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.Box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.input {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.container .Box {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Box .social_media {
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    opacity: 0.8;
+    color: white;
+    left: 50%;
+    bottom: 154px;
+    transform: translateX(-50%);
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.Box .social_media i {
+    font-size: 26px;
+    margin: 0 10px;
+}
+
+.Box .social_media i:hover {
+    font-size: 29px;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.Box .social_media ul a {
+    text-decoration: none;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 6px;
+    color: #555;
+}
+
+#Heading {
+    text-align: center;
+    /* Adjust position */
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: #3498db;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#Submit {
+    /* Adjust position */
+    position: absolute;
+    left: 50%;
+    bottom: 200px;
+    transform: translateX(-50%);
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#Submit:hover {
+    background-color: #297db6;
+}
+
