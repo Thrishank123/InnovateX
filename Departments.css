@@ -5,6 +5,9 @@ h1{
     color: white;
     font-family: Grown;
 }
+a{
+    text-decoration: none;
+}
 .card {
     height: 100%;
     border: 1px solid #ccc;
@@ -47,3 +50,4 @@ h1{
 .footer a:hover {
     color: #adb5bd;
 }
+
